@@ -1,0 +1,59 @@
+F:\.Net basics start\Ordering System\Ordering System\bin\Ordering System.dll.config
+F:\.Net basics start\Ordering System\Ordering System\bin\Ordering System.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\Ordering System.pdb
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csc.exe
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csc.exe.config
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csc.rsp
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csi.exe
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csi.exe.config
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\csi.rsp
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.Managed.Core.targets
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.AppContext.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Collections.Immutable.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Console.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Globalization.Calendars.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.IO.Compression.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.IO.FileSystem.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Net.Http.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Net.Sockets.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Reflection.Metadata.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.ValueTuple.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Xml.XmlDocument.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Xml.XPath.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\vbc.exe
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\vbc.exe.config
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\vbc.rsp
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\VBCSCompiler.exe
+F:\.Net basics start\Ordering System\Ordering System\bin\roslyn\VBCSCompiler.exe.config
+F:\.Net basics start\Ordering System\Ordering System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\.Net basics start\Ordering System\Ordering System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\.Net basics start\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.AssemblyReference.cache
+F:\.Net basics start\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.CoreCompileInputs.cache
+F:\.Net basics start\Ordering System\Ordering System\obj\Debug\Ordering System.csproj.CopyComplete
+F:\.Net basics start\Ordering System\Ordering System\obj\Debug\Ordering System.dll
+F:\.Net basics start\Ordering System\Ordering System\obj\Debug\Ordering System.pdb
