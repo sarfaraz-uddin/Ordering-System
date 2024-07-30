@@ -19,7 +19,7 @@ namespace Ordering_System.User
             {
                 form1.Attributes.Remove("class");
 
-                Control slideUserControl = (Control)Page.LoadControl("SliderUserControl.ascx");
+                Control slideUserControl = (Control)Page.LoadControl("SliderUserControl1.ascx");
 
                 pnlSliderUC.Controls.Add(slideUserControl);
             }
@@ -44,6 +44,20 @@ namespace Ordering_System.User
             {
                 Session.Abandon();
                 Response.Redirect("Login.aspx");
+            }
+        }
+
+        protected void lbRegisterOrProfile_Click(object sender, EventArgs e)
+        {
+            if (Session["userId"] != null)
+            {
+                lbRegisterOrProfile.ToolTip = "User Profile";
+                Response.Redirect("Profile.aspx");
+            }
+            else
+            {
+                lbRegisterOrProfile.ToolTip = "User Registration";
+                Response.Redirect("Registration.aspx");
             }
         }
     }

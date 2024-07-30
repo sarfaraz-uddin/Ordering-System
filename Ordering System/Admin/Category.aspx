@@ -104,16 +104,16 @@
                                                                     <img alt="" width="40" src="<%# Utils.GetImageUrl( Eval("ImageUrl")) %>" />
                                                                 </td>
                                                                 <td>
-                                                                    <asp:Label ID="lblIsActive" runat="server" Text="<%#Eval("IsActive") %> "></asp:Label>
+                                                                    <asp:Label ID="lblIsActive" runat="server" Text='<%# Eval("IsActive") %> '></asp:Label>
                                                                 </td>
-                                                                <td><%#Eval("CreatedDate") %>  </td>
+                                                                <td><%# Eval("CreatedDate") %>  </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="lnkEdit" Text="Edit" runat="server" CssClass="badge badge-primary"
-                                                                        CommandArgument="<%# Eval("CategoryId") %>" CommandName="edit">
+                                                                        CommandArgument='<%# Eval("CategoryId") %>' CommandName="edit">
                                                                         <i class="ti-pencil"></i>
                                                                     </asp:LinkButton>
                                                                     <asp:LinkButton ID="lnkDelete" Text="Delete" runat="server" CssClass="badge bg-danger"
-                                                                        CommandArgument="<%# Eval("CategoryId") %>" CommandName="delete"
+                                                                        CommandArgument='<%# Eval("CategoryId") %>' CommandName="delete"
                                                                         OnClientClick="return confirm('Do you want to delete this category?');">
                                                                         <i class="ti-trash"></i> 
                                                                     </asp:LinkButton>

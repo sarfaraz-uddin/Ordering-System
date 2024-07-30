@@ -118,7 +118,8 @@
                                                             ErrorMessage="Category is required" ForeColor="Red" Display="Dynamic"
                                                             SetFocusOnError="true" ControlToValidate="ddlCategories"
                                                             InitialValue="0"></asp:RequiredFieldValidator>
-                                                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" OnSelecting="SqlDataSource1_Selecting" ConnectionString="<%$ ConnectionStrings:cs %>" SelectCommand="SELECT [CategoryId], [Name] FROM [Categories]"></asp:SqlDataSource>
+                                                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+                                                             ConnectionString="<%$ ConnectionStrings:cs %>" SelectCommand="SELECT [CategoryId], [Name] FROM [Categories]"></asp:SqlDataSource>
                                                     </div>
                                                 </div>
                                                 <div class="form-check pl-4">
@@ -169,12 +170,12 @@
                                                                 </td>
                                                                 <td><%#Eval("Price") %>  </td>
                                                                 <td>
-                                                                    <asp:Label ID="lblQuantity" runat="server" Text="<%#Eval("Quantity") %> "></asp:Label>
+                                                                    <asp:Label ID="lblQuantity" runat="server" Text='<%#Eval("Quantity") %> '></asp:Label>
                                                                 </td>
                                                                 <td><%#Eval("CategoryName") %>  </td>
 
                                                                 <td>
-                                                                    <asp:Label ID="lblIsActive" runat="server" Text="<%#Eval("IsActive") %> "></asp:Label>
+                                                                    <asp:Label ID="lblIsActive" runat="server" Text='<%#Eval("IsActive") %> '></asp:Label>
                                                                 </td>
 
                                                                 <td><%#Eval("Description") %>  </td>
@@ -182,11 +183,11 @@
                                                                 <td><%#Eval("CreatedDate") %>  </td>
                                                                 <td>
                                                                     <asp:LinkButton ID="lnkEdit" Text="Edit" runat="server" CssClass="badge badge-primary"
-                                                                        CausesValidation="false" CommandArgument="<%# Eval("ProductId") %>" CommandName="edit">
+                                                                        CausesValidation="false" CommandArgument='<%# Eval("ProductId") %>' CommandName="edit">
                                                                     <i class="ti-pencil"></i>
                                                                     </asp:LinkButton>
                                                                     <asp:LinkButton ID="lnkDelete" Text="Delete" runat="server" CssClass="badge bg-danger"
-                                                                        CausesValidation="false" CommandArgument="<%# Eval("ProductId") %>" CommandName="delete"
+                                                                        CausesValidation="false" CommandArgument='<%# Eval("ProductId") %>' CommandName="delete"
                                                                         OnClientClick="return confirm('Do you want to delete this Product?');">
                                                                     <i class="ti-trash"></i> 
                                                                     </asp:LinkButton>
