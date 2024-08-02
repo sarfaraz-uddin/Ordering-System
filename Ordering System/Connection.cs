@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Policy;
 using System.Web;
+using Ordering_System.Admin;
 
 namespace Ordering_System
 {
@@ -23,6 +24,7 @@ namespace Ordering_System
     {
         SqlConnection con;
         SqlCommand cmd;
+        SqlDataAdapter sda;
         public static bool IsValidExtension(string fileName)
         {
             bool isValid = false;
@@ -78,6 +80,19 @@ namespace Ordering_System
                 con.Close();
             }
             return isUpdated;
+        }
+
+        public int cartCount(int userId)
+        {
+            con = new SqlConnection(Connection.GetConnectionString());
+            cmd = new SqlCommand("Cart_Crud", con);
+            cmd.Parameters.AddWithValue("@Action", "SELECT");
+            cmd.Parameters.AddWithValue("@UserId", userId);
+            cmd.CommandType = CommandType.StoredProcedure;
+            sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            return dt.Rows.Count;
         }
     }
 }
