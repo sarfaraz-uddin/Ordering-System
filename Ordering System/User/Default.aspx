@@ -106,7 +106,7 @@
                 <div class="col-md-6">
                     <div class="detail-box">
                         <div class="heading_container">
-                            <h2>We Are Feane
+                            <h2>We Are Foodie
                             </h2>
                         </div>
                         <p>

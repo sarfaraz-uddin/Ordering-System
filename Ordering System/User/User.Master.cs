@@ -27,10 +27,13 @@ namespace Ordering_System.User
             if (Session["userId"] != null)
             {
                 lbLoginOrLogout.Text = "Logout";
+                Utils utils = new Utils();
+                Session["cartCount"] = utils.cartCount(Convert.ToInt32(Session["userId"])).ToString();
             }
             else
             {
                 lbLoginOrLogout.Text = "Login";
+                Session["cartCount"] = "0";
             }
         }
 

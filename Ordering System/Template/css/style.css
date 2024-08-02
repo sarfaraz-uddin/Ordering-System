@@ -22,7 +22,7 @@ body {
     padding: 0 20px;
 }
     
-.product__details__option .pro-qty .probtn{
+.product__details__option .pro-qty .qtybtn{
     font-size: 16px;
     float: left;
     height: 100%;
@@ -31,11 +31,11 @@ body {
     font-weight: 600;
 }
 
-.product__details__option .pro-qty .probtn.dec{
+.product__details__option .pro-qty .qtybtn.dec{
     color: #888888;
 }
 
-.product__details__option .pro-qty .probtn.inc{
+.product__details__option .pro-qty .qtybtn.inc{
     color: #111111;
 }
 

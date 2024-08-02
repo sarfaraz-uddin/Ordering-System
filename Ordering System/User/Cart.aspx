@@ -32,8 +32,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            
-
                 </HeaderTemplate>
                 <ItemTemplate>
                     <tr>
@@ -50,7 +48,7 @@
                             <asp:HiddenField ID="hdnPrdQuantity" runat="server" Value='<%# Eval("PrdQty") %>'/>
                         </td>
                         <td>
-                            <div class="product__details__options">
+                            <div class="product__details__option">
                                 <div class="quantity">
                                     <div class="pro-qty">
                                         <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" Text='<%# Eval("Quantity") %>'></asp:TextBox>
@@ -61,13 +59,13 @@
                             </div>
                         </td>
                         <td>
-                            Rs<asp:Label ID="lblTotalPrice" runat="server" Text='<%# Eval("Price") %>'></asp:Label>
+                            Rs<asp:Label ID="lblTotalPrice" runat="server" ></asp:Label>
                         </td>
                         <td>
                             <asp:LinkButton ID="lbDelete" runat="server" Text="Remove" CommandName="remove" 
                                 CommandArgument='<%# Eval("ProductId") %>'
                                 OnClientClick="return confirm('Do you want to remove this item from cart?');">
-                                <i class="fa fa-close"></i></asp:LinkButton>
+                                <i class="fa fa-trash"></i></asp:LinkButton>
                         </td>
                     </tr>
                 </ItemTemplate>
@@ -81,7 +79,7 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="continue__btn">
+                        <td class="continue__btn">
                             <a href="Menu.aspx" class="btn btn-info"><i class="fa fa-arrow-circle-left mr-2"></i>Continue Shopping</a>
                         </td>
                         <td>
