@@ -65,7 +65,7 @@ namespace Ordering_System.User
 
         void OrderPayment(string name, string cardNo, string expiryDate, string cvv, string address, string paymentMode)
         {
-            int paymentId; int productId; int quantity;
+            int paymentId=0; int productId; int quantity;
             dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[7]
             {
@@ -89,12 +89,13 @@ namespace Ordering_System.User
             cmd.Parameters.AddWithValue("@Cvv", cvv);
             cmd.Parameters.AddWithValue("@Address", address);
             cmd.Parameters.AddWithValue("@PaymentMode", paymentMode);
-            cmd.Parameters.Add("@InsertedId", SqlDbType.Int);
-            cmd.Parameters["@InsertedId"].Direction = ParameterDirection.Output;
+            SqlParameter insertedIdParam = new SqlParameter("@InsertedId", SqlDbType.Int);
+            insertedIdParam.Direction = ParameterDirection.Output;
+            cmd.Parameters.Add(insertedIdParam);
             try
             {
                 cmd.ExecuteNonQuery();
-                paymentId = Convert.ToInt32(cmd.Parameters["InsertedId"].Value);
+                paymentId = Convert.ToInt32(insertedIdParam.Value);
 
                 #region Getting Cart Items
                 cmd = new SqlCommand("Cart_Crud", con, transaction);

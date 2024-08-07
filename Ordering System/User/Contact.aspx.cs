@@ -28,9 +28,9 @@ namespace Ordering_System.User
                 cmd = new SqlCommand("ContactSp", con);
                 cmd.Parameters.AddWithValue("@Action", "INSERT");
                 cmd.Parameters.AddWithValue("@Name", txtName.Text.Trim());
-                cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim()));
-                cmd.Parameters.AddWithValue("@Subject", txtSubject.Text.Trim()));
-                cmd.Parameters.AddWithValue("@Message", txtMessage.Text.Trim()));
+                cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+                cmd.Parameters.AddWithValue("@Subject", txtSubject.Text.Trim());
+                cmd.Parameters.AddWithValue("@Message", txtMessage.Text.Trim());
                 cmd.CommandType = CommandType.StoredProcedure;
                 con.Open();
                 cmd.ExecuteNonQuery();
