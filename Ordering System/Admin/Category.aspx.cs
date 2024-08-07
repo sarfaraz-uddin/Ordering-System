@@ -67,7 +67,7 @@ namespace Ordering_System.Admin
             }
             else
             {
-                isValidToExecute = false;
+                isValidToExecute = true;
             }
 
             if(isValidToExecute)
