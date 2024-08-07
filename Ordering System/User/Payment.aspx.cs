@@ -30,6 +30,10 @@ namespace Ordering_System.User
             }
         }
 
+        protected void lbCardSubmit_Click1(object sender, EventArgs e)
+        {
+
+        }
         protected void lbCardSubmit_Click(object sender, EventArgs e)
         {
             _name = txtName.Text.Trim();
