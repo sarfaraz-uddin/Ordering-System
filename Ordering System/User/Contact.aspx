@@ -13,7 +13,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <%-- this is boook section --%>
     <!-- book section -->
     <section class="book_section layout_padding">
         <div class="container">
