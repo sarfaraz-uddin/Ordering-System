@@ -116,4 +116,66 @@ E:\8th Project\Ordering-System\Ordering System\obj\Debug\Ordering System.csproj.
 E:\8th Project\Ordering-System\Ordering System\obj\Debug\Ordering.2AF400A9.Up2Date
 E:\8th Project\Ordering-System\Ordering System\obj\Debug\Ordering System.dll
 E:\8th Project\Ordering-System\Ordering System\obj\Debug\Ordering System.pdb
+<<<<<<< HEAD
 F:\.Net basics start\Ordering System\Ordering System\bin\itextsharp.dll
+=======
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\Ordering System.dll.config
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\Ordering System.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\Ordering System.pdb
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csc.exe
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csc.exe.config
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csc.rsp
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csi.exe
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csi.exe.config
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\csi.rsp
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.AppContext.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Console.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.IO.Compression.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Net.Http.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.ValueTuple.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\vbc.exe
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\vbc.exe.config
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\vbc.rsp
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\VBCSCompiler.exe
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\obj\Debug\Ordering System.csproj.AssemblyReference.cache
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\obj\Debug\Ordering System.csproj.CoreCompileInputs.cache
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\obj\Debug\Ordering.2AF400A9.Up2Date
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\obj\Debug\Ordering System.dll
+C:\Users\ISHAN KHADKA\Source\Repos\Ordering-System\Ordering System\obj\Debug\Ordering System.pdb
+>>>>>>> ishan
