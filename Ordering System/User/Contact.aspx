@@ -13,7 +13,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <%-- this is boook section --%>
     <!-- book section -->
     <section class="book_section layout_padding">
         <div class="container">
@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="map_container ">
-                        <div id="googleMap"></div>
+                    <div class="map_container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1816964545683!2d85.32263037530093!3d27.711675776180087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190f4a71326b%3A0x1e54c69290d012c6!2z4KSV4KS_4KS34KWN4KSfIOCkleCksuClh-CknCDgpKTgpKXgpL4g4KSu4KS-LuCkteCkvy4!5e0!3m2!1sen!2snp!4v1723461034518!5m2!1sen!2snp" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

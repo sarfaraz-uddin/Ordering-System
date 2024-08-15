@@ -138,7 +138,7 @@ namespace Ordering_System.User
                 lblMsg.Visible = true;
                 lblMsg.Text = "Your Item Order is Successful!!!";
                 lblMsg.CssClass = "alert alert-success";
-                Response.AddHeader("REFRESH", "1;URL=Invoice.aspx?id" + paymentId);
+                Response.AddHeader("REFRESH", "1;URL=Invoice.aspx?id=" + paymentId);
             }
             catch (Exception e) 
             {

@@ -14,7 +14,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <section class="book_section layout_padding">
+    <section class="book_section layout_padding" style="background-color:lightgoldenrodyellow">
         <div class="container">
             <div class="heading_container">
                 <div class="align-self-end">
@@ -25,18 +25,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-container">
-                        <img id="userLogin" src="../Images/login.png" alt="" class="img-thumbnail" />
+                        <img id="userLogin" src="../Images/Login.jpg" alt="" class="img-thumbnail" />
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-container">
-                        <div>
+                        <div class="mb-4">
                             <asp:RequiredFieldValidator ID="rfvUsername" runat="server"
                                 ErrorMessage="Username is required" ControlToValidate="txtUsername"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true" Font-Size="Small"></asp:RequiredFieldValidator>
                             <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" placeholder="Enter Username"></asp:TextBox>
                         </div>
-                        <div>
+                        <div class="mb-4">
                             <asp:RequiredFieldValidator ID="rfvPassword" runat="server"
                                 ErrorMessage="Password is required" ControlToValidate="txtPassword"
                                 ForeColor="Red" Display="Dynamic" SetFocusOnError="true" Font-Size="Small"></asp:RequiredFieldValidator>
