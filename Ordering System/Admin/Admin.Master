@@ -110,7 +110,7 @@
                             </a>
 
                             <a href="index.html">
-                                <img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />
+                                <%--<img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />--%>
                                 <h3 class="pl-2">ADMIN</h3>
                             </a>
                             <a class="mobile-options">
